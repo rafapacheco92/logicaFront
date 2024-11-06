@@ -1,0 +1,19 @@
+.feed {
+    flex-grow: 1;
+    overflow-y: auto;  /* Permite rolagem se houver muitos posts */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  ::-webkit-scrollbar{
+    width: 0;
+    background-color: transparent;
+  }
+  
+  .feedContent {
+    max-width: 70%;
+    margin-right: 20%;
+  }

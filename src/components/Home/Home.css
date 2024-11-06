@@ -1,0 +1,114 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1c1c1c;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Para esticar ambos os lados */
+    background-color: #1c1c1c;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 580px; /* Altura fixa para ambos os elementos */
+}
+
+.logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c; /* fundo para igualar */
+}
+
+.logo {
+    max-width: 80%;
+    height: auto;
+}
+
+.form-container {
+    flex: 1;
+    background-color: #2c2c2c;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.form-container img {
+    width: 10%;
+    position: fixed;
+    top: 12.5rem;
+}
+
+.title {
+    font-size: 2rem;
+    color: #f5f5f5;
+    margin-bottom: 1.5rem;
+}
+
+.form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    background-color: #3c3c3c;
+    border: none;
+    border-radius: 4px;
+    color: #f5f5f5;
+    font-size: 1rem;
+}
+
+.form input::placeholder {
+    color: #b5b5b5;
+}
+
+.btn {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #0095f6;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #007bbf;
+}
+
+.toggle-text {
+    color: #b5b5b5;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.toggle-link {
+    color: #0095f6;
+    cursor: pointer;
+    margin-left: 4px;
+    font-weight: bold;
+}
+
+.toggle-link:hover {
+    text-decoration: underline;
+}
